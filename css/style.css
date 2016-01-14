@@ -10,6 +10,8 @@
 
 /* Basic */
 
+
+
 	body {
 		background: #fff;
 	}
@@ -775,7 +777,7 @@
 		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #323037;
+		background-color: #ef4836;
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff !important;
@@ -862,7 +864,7 @@
 			input[type="reset"].alt:active,
 			input[type="button"].alt:active,
 			.button.alt:active {
-				background-color: rgba(144, 144, 144, 0.2);
+				background-color: rgba(01, 01, 01, 0.2);
 			}
 
 			input[type="submit"].alt.icon:before,
@@ -876,7 +878,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #f32853;
+			background-color: #ef4836;
 			color: #ffffff !important;
 		}
 
@@ -884,14 +886,14 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #f44066;
+				background-color: #22313f;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #f21040;
+				background-color: #22313f;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -1054,7 +1056,7 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("http://files.parsetfss.com/db2d56ca-fb33-4f71-ab70-5c5f9f6c85b0/tfss-f5578d09-1829-41b4-8c0d-ae2dfa161fe6-Sealing.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -1172,4 +1174,12 @@
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
+				}
+
+
+
+				.shoutOutHeader{
+					font-size: 70px;
+					color:white;
+					margin-bottom:0px;
 				}
