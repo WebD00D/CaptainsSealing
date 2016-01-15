@@ -1278,5 +1278,11 @@
 		padding-right:15px;
 	}
 
+	#btnSubmit{
+		font-size: 1em;
+		padding-left:35px;
+		padding-right:35px;
+	}
+
 
 }
