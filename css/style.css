@@ -793,6 +793,33 @@
 		white-space: nowrap;
 	}
 
+	.buttonSuccess {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		background-color: #26c281;
+		border-radius: 4px;
+		border: 0;
+		color: #ffffff !important;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 700;
+		height: 3.15em;
+		line-height: 3.25em;
+		padding: 0 2.2em;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
+
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
@@ -1069,7 +1096,7 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("http://files.parsetfss.com/db2d56ca-fb33-4f71-ab70-5c5f9f6c85b0/tfss-f5578d09-1829-41b4-8c0d-ae2dfa161fe6-Sealing.jpg");
+		background-image: url("images/overlay.png"), url("http://files.parsetfss.com/db2d56ca-fb33-4f71-ab70-5c5f9f6c85b0/tfss-1e0ab28d-569a-4c00-a466-0091f431891d-BigSeal.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -1133,6 +1160,30 @@
 	body.is-touch .wrapper.style3 {
 		background-attachment: scroll;
 	}
+
+	.wrapper.style4 {
+		background-attachment: fixed;
+		background-image: url("images/overlay.png"), url("http://sealthis.com/Seal%20This-highres-0306.jpg");
+		background-position: center center;
+		background-size: cover;
+	}
+
+		.wrapper.style4 header.major {
+			margin-bottom: 3em;
+		}
+
+			.wrapper.style4 header.major h2 {
+				color: #ffffff;
+			}
+
+body.is-touch .wrapper.style4 {
+	background-attachment: scroll;
+}
+
+
+
+
+
 
 /* Footer */
 
